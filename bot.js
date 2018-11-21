@@ -27,7 +27,7 @@ var prefix = "-";
 
   let args = message.content.split(" ").slice(1);
 
-  if (command === "11say")  {
+  if (command === "13say")  {
   if(!message.channel.guild) return message.reply('** __This command only for servers⛔__  **');
           message.delete()
     message.channel.sendMessage(args.join(" ")).catch(console.error);
@@ -61,7 +61,7 @@ var prefix = "-";
 
   let args = message.content.split(" ").slice(1);
 
-  if (command === "12say")  {
+  if (command === "14say")  {
   if(!message.channel.guild) return message.reply('** __This command only for servers⛔__  **');
           message.delete()
     message.channel.sendMessage(args.join(" ")).catch(console.error);
